@@ -1,0 +1,48 @@
+name: 🐛 Bug 反馈
+description: 报告一个使用中遇到的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈！请尽量填全，方便定位问题。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 使用的端
+      options:
+        - 浏览器扩展
+        - 移动端 App（iOS）
+        - 移动端 App（Android）
+        - Web 阅读器
+        - 其他 / 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 遇到了什么问题
+      description: 描述现象。如果是某个词 / 句子的释义、词族划分不对，请把原词和上下文贴出来。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 ...
+        2. 点击 ...
+        3. 出现 ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的结果
+  - type: textarea
+    id: version
+    attributes:
+      label: 版本 / 环境
+      description: App 版本号、扩展版本、浏览器、系统等（能填多少填多少）。
+  - type: textarea
+    id: extra
+    attributes:
+      label: 截图 / 补充
