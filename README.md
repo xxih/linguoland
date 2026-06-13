@@ -30,4 +30,4 @@ LinguoLand 是一套围绕「读」展开的英语学习工具：你导入或选
 
 ## License
 
-代码与文档的开放协议见 [LICENSE](LICENSE)（如未添加，默认保留所有权利，可向 owner 询问）。
+本仓库内容（skills、文档等）采用 [MIT 协议](LICENSE)开放。
